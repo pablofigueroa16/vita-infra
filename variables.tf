@@ -16,9 +16,9 @@ variable "environment" {
 }
 
 variable "project_name" {
-  description = "VITA"
+  description = "vita"
   type        = string
-  default     = "VITA"
+  default     = "vita"
 }
 
 variable "vpc_cidr" {
