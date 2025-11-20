@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+.terraform.lock.hcl
+
+# Archivos de secretos
+secrets.tfvars
+*.secret.tfvars
+*.secrets.tfvars
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# AWS
+*.pem
+*.key
